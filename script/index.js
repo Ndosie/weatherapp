@@ -12,15 +12,15 @@ function toCelcius(temp) {
 
 function setImage(cloudcover) {
     if (cloudcover <= 20) {
-        img.src = 'images/cloudy.svg'
+        img.src = './images/cloudy.svg'
     } else if (cloudcover > 20 && cloudcover <= 40) {
-        img.src = 'images/mostly_cloudy.svg'
+        img.src = './images/mostly_cloudy.svg'
     } else if (cloudcover > 40 && cloudcover <= 60) {
-        img.src = 'images/partly_cloudy.svg'
+        img.src = './images/partly_cloudy.svg'
     } else if (cloudcover > 60 && cloudcover <= 80) {
-        img.src = 'images/mostly_sunny.svg'
+        img.src = './images/mostly_sunny.svg'
     } else {
-        img.src = 'images/sunny.svg'
+        img.src = './images/sunny.svg'
     }
 }
 
