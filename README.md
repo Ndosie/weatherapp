@@ -2,6 +2,10 @@
 
 **Project**: A small client-side weather app that displays current weather information for a chosen location using Visual Crossing Weather API. The app is built with plain HTML, CSS and JavaScript and is intended as a lightweight demo project.
 
+![Demo](demo.gif)
+
+See live demo [here](https://ndosie.github.io/weatherapp/)
+
 **Quick Start**
 - **Open**: Double-click `index.html` in the project root to open in your browser.
 - **Local server (recommended)**: Run a simple HTTP server and open `http://localhost:8000`.

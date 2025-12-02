@@ -31,7 +31,7 @@ async function fetchData(location) {
         const data = await response.json()
         const processedData = processData(data)
         console.log(processedData)
-        setImage(parseInt(processedData.cloudcover))
+        setImage(toCelcius(processedData.temp))
         tempSpan.textContent = Math.ceil(toCelcius(processedData.temp))
         descriptionP.textContent = processedData.description
         locationP.textContent = processedData.city
